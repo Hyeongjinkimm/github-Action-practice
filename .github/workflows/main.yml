@@ -7,7 +7,7 @@ jobs:
     name: Return the number squre
     steps:
       -name: Checkout
-       uses: actions/setup-python@4
+       uses: actions/checkout@v2
       -name: Fetch num squared
        id: get_square
        uses: ./ # Uses am action in the  root directory
